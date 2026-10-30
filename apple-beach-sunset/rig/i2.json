@@ -1,10 +1,185 @@
-{"image":"i2","who":"girl",
- "mouths":[
-  {"id":"mouth_g","who":"girl","x":932,"y":1160,"w":66,"h":40},
-  {"id":"mouth_a","who":"apple","x":548,"y":1503,"w":90,"h":70}],
- "parts":[
-  {"id":"eye_gl","z":8,"pivot":[872,1065],"feather":2,"grow":10,"motion":[{"p":"blink","seed":0},{"p":"look","dx":3,"dy":2,"every":1.8}],"shapes":[{"thresh":{"box":[860,1038,886,1092],"max":85,"close":9,"dilate":3}}]},
-  {"id":"eye_gr","z":8,"pivot":[970,1065],"feather":2,"grow":10,"motion":[{"p":"blink","seed":0},{"p":"look","dx":3,"dy":2,"every":1.8}],"shapes":[{"thresh":{"box":[952,1035,990,1095],"max":85,"close":9,"dilate":3}}]},
-  {"id":"eye_al","z":8,"pivot":[464,1449],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2},{"p":"listen","who":"girl","dx":-3,"dy":1}],"shapes":[{"thresh":{"box":[433,1410,495,1490],"max":85,"close":9,"dilate":3}}]},
-  {"id":"eye_ar","z":8,"pivot":[597,1413],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2},{"p":"listen","who":"girl","dx":-3,"dy":1}],"shapes":[{"thresh":{"box":[575,1375,620,1448],"max":85,"close":9,"dilate":3}}]}
- ]}
+{
+ "image": "i2",
+ "who": "girl",
+ "mouths": [
+  {
+   "id": "mouth_g",
+   "who": "girl",
+   "x": 932,
+   "y": 1160,
+   "w": 66,
+   "h": 40,
+   "inpaint": false
+  },
+  {
+   "id": "mouth_a",
+   "who": "apple",
+   "x": 548,
+   "y": 1503,
+   "w": 90,
+   "h": 70
+  }
+ ],
+ "parts": [
+  {
+   "id": "eye_gl",
+   "z": 8,
+   "pivot": [
+    872,
+    1065
+   ],
+   "feather": 2,
+   "grow": 10,
+   "motion": [
+    {
+     "p": "blink",
+     "seed": 0
+    },
+    {
+     "p": "look",
+     "dx": 3,
+     "dy": 2,
+     "every": 1.8
+    }
+   ],
+   "shapes": [
+    {
+     "thresh": {
+      "box": [
+       860,
+       1038,
+       886,
+       1092
+      ],
+      "max": 85,
+      "close": 9,
+      "dilate": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "eye_gr",
+   "z": 8,
+   "pivot": [
+    970,
+    1065
+   ],
+   "feather": 2,
+   "grow": 10,
+   "motion": [
+    {
+     "p": "blink",
+     "seed": 0
+    },
+    {
+     "p": "look",
+     "dx": 3,
+     "dy": 2,
+     "every": 1.8
+    }
+   ],
+   "shapes": [
+    {
+     "thresh": {
+      "box": [
+       952,
+       1035,
+       990,
+       1095
+      ],
+      "max": 85,
+      "close": 9,
+      "dilate": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "eye_al",
+   "z": 8,
+   "pivot": [
+    464,
+    1449
+   ],
+   "feather": 2,
+   "grow": 10,
+   "motion": [
+    {
+     "p": "blink",
+     "seed": 2
+    },
+    {
+     "p": "look",
+     "dx": 3,
+     "dy": 2,
+     "every": 2.2
+    },
+    {
+     "p": "listen",
+     "who": "girl",
+     "dx": -3,
+     "dy": 1
+    }
+   ],
+   "shapes": [
+    {
+     "thresh": {
+      "box": [
+       433,
+       1410,
+       495,
+       1490
+      ],
+      "max": 85,
+      "close": 9,
+      "dilate": 3
+     }
+    }
+   ]
+  },
+  {
+   "id": "eye_ar",
+   "z": 8,
+   "pivot": [
+    597,
+    1413
+   ],
+   "feather": 2,
+   "grow": 10,
+   "motion": [
+    {
+     "p": "blink",
+     "seed": 2
+    },
+    {
+     "p": "look",
+     "dx": 3,
+     "dy": 2,
+     "every": 2.2
+    },
+    {
+     "p": "listen",
+     "who": "girl",
+     "dx": -3,
+     "dy": 1
+    }
+   ],
+   "shapes": [
+    {
+     "thresh": {
+      "box": [
+       575,
+       1375,
+       620,
+       1448
+      ],
+      "max": 85,
+      "close": 9,
+      "dilate": 3
+     }
+    }
+   ]
+  }
+ ]
+}
