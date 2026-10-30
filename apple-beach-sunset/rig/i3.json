@@ -1,0 +1,10 @@
+{"image":"i3","who":"apple",
+ "mouths":[
+  {"id":"mouth_g","who":"girl","x":657,"y":1316,"w":60,"h":24},
+  {"id":"mouth_a","who":"apple","x":988,"y":1698,"w":72,"h":54}],
+ "parts":[
+  {"id":"eye_gl","z":8,"pivot":[616,1243],"feather":2,"grow":10,"motion":[{"p":"blink","seed":0},{"p":"look","dx":3,"dy":2,"every":1.8},{"p":"listen","who":"apple","dx":6,"dy":2}],"shapes":[{"thresh":{"box":[596,1215,638,1270],"max":85,"close":9,"dilate":3}}]},
+  {"id":"eye_gr","z":8,"pivot":[716,1231],"feather":2,"grow":10,"motion":[{"p":"blink","seed":0},{"p":"look","dx":3,"dy":2,"every":1.8},{"p":"listen","who":"apple","dx":6,"dy":2}],"shapes":[{"thresh":{"box":[700,1205,735,1258],"max":85,"close":9,"dilate":3}}]},
+  {"id":"eye_al","z":8,"pivot":[933,1623],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2}],"shapes":[{"thresh":{"box":[915,1593,953,1656],"max":85,"close":9,"dilate":3}}]},
+  {"id":"eye_ar","z":8,"pivot":[1067,1660],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2}],"shapes":[{"thresh":{"box":[1042,1626,1092,1692],"max":85,"close":9,"dilate":3}}]}
+ ]}

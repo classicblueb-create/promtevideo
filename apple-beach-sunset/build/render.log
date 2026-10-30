@@ -1,0 +1,24 @@
+warning: The `UV_NATIVE_TLS` environment variable is deprecated and will be removed in a future release. Use `UV_SYSTEM_CERTS` instead.
+[page] Failed to load resource: the server responded with a status of 404 (File not found)
+0/1750  0s
+90/1750  23s
+180/1750  45s
+270/1750  67s
+360/1750  88s
+450/1750  111s
+540/1750  135s
+630/1750  160s
+720/1750  182s
+810/1750  203s
+900/1750  226s
+990/1750  249s
+1080/1750  270s
+1170/1750  295s
+1260/1750  318s
+1350/1750  340s
+1440/1750  361s
+1530/1750  382s
+1620/1750  405s
+1710/1750  427s
+done -> build/video.mp4
+done

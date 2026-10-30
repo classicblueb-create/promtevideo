@@ -1,21 +1,190 @@
 {
- "windows": {"girl": [[0.11,10.96],[12.51,19.09],[20.48,23.41],[24.73,26.24],[26.68,27.25],[28.27,32.34],[33.27,34.33]]},
- "lead": 0.6, "gap": 0.35, "tail": 2.2,
- "voices": {"apple": "vo/apple.mp3", "girl": "vo/girl.mp3"},
+ "windows": {
+  "girl": [
+   [
+    0.11,
+    10.96
+   ],
+   [
+    12.51,
+    19.09
+   ],
+   [
+    20.48,
+    23.41
+   ],
+   [
+    24.73,
+    26.24
+   ],
+   [
+    26.68,
+    27.25
+   ],
+   [
+    28.27,
+    32.34
+   ],
+   [
+    33.27,
+    34.33
+   ]
+  ]
+ },
+ "lead": 0.6,
+ "gap": 0.35,
+ "tail": 2.2,
+ "voices": {
+  "apple": "vo/apple.mp3",
+  "girl": "vo/girl.mp3"
+ },
  "lines": [
-  {"who":"apple","chunks":["พี่มด","หนูมี","เรื่องสงสัย","ถ้าเรามีอะไร","ก็ถามแต่ *AI*","สุดท้าย","เราจะ *โง่ลง*","ไหม?"],"en":"Mod, if we just ask AI everything, will we end up dumber?","face":"neutral","react":{"girl":"neutral"}},
-  {"who":"girl","chunks":["จริง ๆ","มันก็ขึ้นอยู่","กับวิธีที่เราใช้นะ","ถ้าใช้ *AI*","ช่วยหาความรู้","ช่วยอธิบาย","เรื่องที่ไม่เข้าใจ","มันก็ทำให้","เราเก่งขึ้นได้","*คิดก่อน*","ค่อยให้มันเสริม"],"en":"It depends how you use it. Think first, then let it add on.","face":"happy"},
-  {"who":"apple","chunks":["แล้วถ้า","หนูให้ *AI*","คิดทุกอย่าง","แทนเลยล่ะ?"],"en":"What if I let AI think for everything?","face":"wow"},
-  {"who":"girl","chunks":["อันนั้น","ก็ *อันตราย*","เพราะสมองคนเรา","ก็เหมือน *กล้ามเนื้อ*","ถ้าไม่ค่อย","ได้ใช้งาน","ก็อาจจะ","ไม่ได้ฝึกคิด"],"en":"That's dangerous. The brain is like a muscle.","face":"neutral"},
-  {"who":"apple","chunks":["อ๋อออ!","งั้นต่อไป","หนูจะใช้ *AI*","แค่ตอนจำเป็น"],"en":"Ohh! Then I'll only use AI when needed.","face":"happy"},
-  {"who":"girl","chunks":["ดีมาก!","อย่างน้อย","ก็ต้องลอง","*คิดเอง*","ก่อนบ้าง"],"en":"Great! At least try thinking first.","face":"happy"},
-  {"who":"apple","chunks":["งั้นพี่มด","ช่วยคิดหน่อย","วันนี้เรา","จะกินอะไรดี?"],"en":"Then think for me: what should we eat today?","face":"happy"},
-  {"who":"girl","chunks":["ก็ลอง","*คิดเอง*","ก่อนสิ!"],"en":"Try thinking it yourself first!","face":"annoyed"},
-  {"who":"apple","chunks":["หนูคิด","แล้วค่ะ!"],"en":"I already did!","face":"happy"},
-  {"who":"girl","chunks":["ว่าไง?"],"en":"So?","face":"neutral"},
-  {"who":"apple","chunks":["ให้ *AI*","เลือกค่ะ!"],"en":"Let AI pick!","face":"happy"},
-  {"who":"girl","chunks":["เอ้าาา","เมื่อกี้ที่พี่พูด","*เข้าหูซ้าย*","ทะลุ *หูขวา*","หรออ?!"],"en":"Did everything I said go in one ear and out the other?!","face":"shock"},
-  {"who":"apple","chunks":["ไม่รู้ค่ะ","เดี๋ยวถาม *AI*","ก่อนว่า","หูหนู","อยู่ตรงไหน"],"en":"Dunno. Let me ask AI where my ears are.","face":"happy"},
-  {"who":"girl","chunks":["เฮ้อ..."],"en":"*sigh*","face":"annoyed"}
+  {
+   "who": "apple",
+   "chunks": [
+    "พี่มด",
+    "หนูมี",
+    "เรื่องสงสัย",
+    "ถ้าเรามีอะไร",
+    "ก็ถามแต่ *AI*",
+    "สุดท้าย",
+    "เราจะ *โง่ลง*",
+    "ไหม?"
+   ],
+   "en": "Mod, if we just ask AI everything, will we end up dumber?"
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "จริง ๆ",
+    "มันก็ขึ้นอยู่",
+    "กับวิธีที่เราใช้นะ",
+    "ถ้าใช้ *AI*",
+    "ช่วยหาความรู้",
+    "ช่วยอธิบาย",
+    "เรื่องที่ไม่เข้าใจ",
+    "มันก็ทำให้",
+    "เราเก่งขึ้นได้",
+    "*คิดก่อน*",
+    "ค่อยให้มันเสริม"
+   ],
+   "en": "It depends how you use it. Think first, then let it add on."
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "แล้วถ้า",
+    "หนูให้ *AI*",
+    "คิดทุกอย่าง",
+    "แทนเลยล่ะ?"
+   ],
+   "en": "What if I let AI think for everything?"
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "อันนั้น",
+    "ก็ *อันตราย*",
+    "เพราะสมองคนเรา",
+    "ก็เหมือน *กล้ามเนื้อ*",
+    "ถ้าไม่ค่อย",
+    "ได้ใช้งาน",
+    "ก็อาจจะ",
+    "ไม่ได้ฝึกคิด"
+   ],
+   "en": "That's dangerous. The brain is like a muscle."
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "อ๋อออ!",
+    "งั้นต่อไป",
+    "หนูจะใช้ *AI*",
+    "แค่ตอนจำเป็น"
+   ],
+   "en": "Ohh! Then I'll only use AI when needed."
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "ดีมาก!",
+    "อย่างน้อย",
+    "ก็ต้องลอง",
+    "*คิดเอง*",
+    "ก่อนบ้าง"
+   ],
+   "en": "Great! At least try thinking first."
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "งั้นพี่มด",
+    "ช่วยคิดหน่อย",
+    "วันนี้เรา",
+    "จะกินอะไรดี?"
+   ],
+   "en": "Then think for me: what should we eat today?"
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "ก็ลอง",
+    "*คิดเอง*",
+    "ก่อนสิ!"
+   ],
+   "en": "Try thinking it yourself first!"
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "หนูคิด",
+    "แล้วค่ะ!"
+   ],
+   "en": "I already did!"
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "ว่าไง?"
+   ],
+   "en": "So?"
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "ให้ *AI*",
+    "เลือกค่ะ!"
+   ],
+   "en": "Let AI pick!"
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "เอ้าาา",
+    "เมื่อกี้ที่พี่พูด",
+    "*เข้าหูซ้าย*",
+    "ทะลุ *หูขวา*",
+    "หรออ?!"
+   ],
+   "en": "Did everything I said go in one ear and out the other?!"
+  },
+  {
+   "who": "apple",
+   "chunks": [
+    "ไม่รู้ค่ะ",
+    "เดี๋ยวถาม *AI*",
+    "ก่อนว่า",
+    "หูหนู",
+    "อยู่ตรงไหน"
+   ],
+   "en": "Dunno. Let me ask AI where my ears are."
+  },
+  {
+   "who": "girl",
+   "chunks": [
+    "เฮ้อ..."
+   ],
+   "en": "*sigh*"
+  }
  ]
 }

@@ -1,0 +1,6 @@
+{"image":"i6","who":"apple",
+ "mouths":[{"id":"mouth_a","who":"apple","x":747,"y":1361,"w":100,"h":62}],
+ "parts":[
+  {"id":"eye_al","z":8,"pivot":[622,1304],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2}],"shapes":[{"thresh":{"box":[570,1268,676,1345],"max":85,"close":9,"dilate":3}}]},
+  {"id":"eye_ar","z":8,"pivot":[820,1262],"feather":2,"grow":10,"motion":[{"p":"blink","seed":2},{"p":"look","dx":3,"dy":2,"every":2.2}],"shapes":[{"thresh":{"box":[778,1225,862,1298],"max":85,"close":9,"dilate":3}}]}
+ ]}
